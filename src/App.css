@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Header */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.header {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: url("./assets/Images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.navbar a {
+  padding: 0 !important;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid white;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar button {
+  background-color: white;
+  transition: 1s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner {
+  height: 60vh;
 }
+
+.banner h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.banner .searchbar {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  width: 25vw !important;
+}
+
+input::placeholder {
+  color: white;
+  opacity: .7;
+}
+
+.banner button:hover {
+  background-color: rgb(58, 57, 57);
+  color: white;
+}
+
+.banner button {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* End of Header */
+
+/* Plan */
+
+.plan {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom left, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 30%, rgb(255, 254, 254) 55%),
+    linear-gradient(to top right, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 50%, rgba(187, 137, 27, 0) 100%);
+}
+
+.plan h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.plan p {
+  max-width: 18vw;
+  text-align: center;
+  max-height: 15vh;
+}
+
+.plan b {
+  border-bottom: 5px solid #bb891b;
+}
+
+/* End of Plan */
+
+/* Strategy */
+
+.strategy {
+  min-height: 100vh;
+  background-image: linear-gradient(to top right, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 30%, rgb(255, 254, 254) 55%),
+    linear-gradient(to bottom left, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 50%, rgba(187, 137, 27, 0) 100%);
+}
+
+.strategy img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: white;
+}
+
+.strategy h1,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.strategy h3 {
+  border-bottom: 4px solid #bb891b;
+  margin-bottom: 3rem;
+}
+
+.strategy p {
+  font-size: 18px;
+}
+
+/* End of Strategy */
