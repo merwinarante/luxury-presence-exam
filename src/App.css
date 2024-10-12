@@ -10,7 +10,7 @@
 
 .header {
   min-height: 100vh;
-  background-image: url("./assets/Images/banner.jpg");
+  background-image: url("./assets/Images/banner.jfif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 100px;
+  font-size: 70px;
 }
 
 .banner .searchbar {
@@ -101,7 +101,7 @@ h4 {
 }
 
 .plan p {
-  max-width: 18vw;
+  min-width: 30vw;
   text-align: center;
   max-height: 15vh;
 }
@@ -146,3 +146,112 @@ h3 {
 }
 
 /* End of Strategy */
+
+/* Selling Process */
+
+.sellingprocess {
+  min-height: 100vh;
+  background-image: url("./assets/Images/sellingprocess.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.sellingprocess .left {
+  /* flex-grow: 4; */
+  background-color: white;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.sellingprocess .right {
+  /* flex-grow: 6; */
+
+}
+
+.sellingprocess h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #bb891b;
+  font-size: 90px;
+}
+
+.sellingprocess p {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.sellingprocess h2 {
+  font-size: 150px;
+  color: white;
+}
+
+/* End of Selling Process */
+
+/* Start of Buying Process */
+
+.buyingprocess {
+  min-height: 100vh;
+  background-image: url("./assets/Images/buyingprocess.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.buyingprocess .left {
+  /* flex-grow: 4; */
+  background-color: white;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.buyingprocess .right {
+  /* flex-grow: 6; */
+
+}
+
+.buyingprocess h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #bb891b;
+  font-size: 90px;
+}
+
+.buyingprocess p {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.buyingprocess h2 {
+  font-size: 150px;
+  color: white;
+}
+
+/* End of Buying Process */
+
+/* Achievements */
+
+.achievements {}
+
+.achievements .left {}
+
+.achievements .right {}
+
+/* End of Achievements */
