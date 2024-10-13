@@ -1,3 +1,5 @@
+import sereno from "../../assets/Images/sereno.png";
+
 function Banner() {
   return (
     <>
@@ -6,7 +8,7 @@ function Banner() {
           <nav className="navbar navbar-expand-lg pt-5">
             <div className="container-fluid container ">
               <a className="navbar-brand" href="#">
-                LOGO
+                <img src={sereno} alt="" />
               </a>
               <button
                 className="navbar-toggler"

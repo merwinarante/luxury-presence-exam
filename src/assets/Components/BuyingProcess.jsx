@@ -2,8 +2,8 @@ function BuyingProcess() {
   return (
     <>
       <div className="buyingprocess">
-        <div className="d-flex row">
-          <div className="right col col-xxs-12 d-flex justify-content-center align-items-center">
+        <div className="d-flex row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+          <div className="right col d-flex justify-content-center align-items-center">
             <h2 className="text-end">
               The
               <br />
@@ -12,7 +12,7 @@ function BuyingProcess() {
               Process.
             </h2>
           </div>
-          <div className="left col col-xxs-12 d-flex flex-column align-items-center justify-content-center">
+          <div className="left col d-flex flex-column align-items-center justify-content-center p-5">
             <div className="d-flex flex-column align-items-start">
               <div className="d-flex align-items-center gap-3">
                 <h1>1</h1>

@@ -33,8 +33,8 @@ function Strategy() {
               </svg>
               Decor Guidance
             </h1>
-            <div className="d-flex justify-content-around gap-5">
-              <div className="w-50 d-flex justify-content-end">
+            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-around">
+              <div className="col d-flex justify-content-end">
                 <div
                   id="carouselExampleSlidesOnly"
                   class="carousel slide carousel-fade"
@@ -50,7 +50,7 @@ function Strategy() {
                   </div>
                 </div>
               </div>
-              <div className="w-50 d-flex flex-column justify-content-center align-items-start text-center">
+              <div className="col d-flex flex-column justify-content-center align-items-start text-center">
                 <h3>Staging Expertise</h3>
                 <div className="text-start">
                   <p>Unclutter and organize your home</p>
@@ -86,8 +86,8 @@ function Strategy() {
                 />
               </svg>
             </h1>
-            <div className="d-flex justify-content-around gap-5">
-              <div className="w-50 d-flex flex-column justify-content-center align-items-end text-center">
+            <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 d-flex justify-content-around">
+              <div className="col d-flex flex-column justify-content-center align-items-end text-center">
                 <h3>Staging Expertise</h3>
                 <div className="text-end">
                   <p>Unclutter and organize your home</p>
@@ -96,7 +96,7 @@ function Strategy() {
                   <p>Play soft music</p>
                 </div>
               </div>
-              <div className="w-50 d-flex justify-content-star">
+              <div className="col d-flex justify-content-star">
                 <div
                   id="carouselExampleSlidesOnly"
                   class="carousel slide carousel-fade"
