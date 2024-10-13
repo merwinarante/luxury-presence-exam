@@ -91,7 +91,6 @@
 /* Plan */
 
 .plan {
-  min-height: 100vh;
   background-image: linear-gradient(to bottom left, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 30%, rgb(255, 254, 254) 55%),
     linear-gradient(to top right, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 50%, rgba(187, 137, 27, 0) 100%);
 }
@@ -121,7 +120,6 @@ h4 {
 /* Strategy */
 
 .strategy {
-  min-height: 100vh;
   background-image: linear-gradient(to top right, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 30%, rgb(255, 254, 254) 55%),
     linear-gradient(to bottom left, rgba(187, 137, 27, 0.7) 0%, rgba(187, 137, 27, 0.3) 50%, rgba(187, 137, 27, 0) 100%);
 }

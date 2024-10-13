@@ -1,7 +1,7 @@
 function Plan() {
   return (
     <>
-      <div className="plan d-flex flex-column justify-content-center gap-5 py-5">
+      <div className="plan d-flex flex-column justify-content-center gap-5 pt-5">
         <h1 className="text-center">
           <b>Comprehensive Marketing Plan</b>
         </h1>

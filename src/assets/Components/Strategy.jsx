@@ -7,7 +7,7 @@ function Strategy() {
   return (
     <>
       <div className="strategy">
-        <div className="container d-flex flex-column gap-5 py-5">
+        <div className="container d-flex flex-column gap-5 pb-5 pt-4">
           <div className="upper d-flex flex-column justify-content-center align-items-center gap-2 flex-wrap">
             <h1 className="text-center d-flex align-items-center">
               <svg
